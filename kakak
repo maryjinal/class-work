@@ -1,0 +1,7 @@
+def sum(start, end):
+    if start > end:
+        start, end = end, start 
+    total = 0
+    for num2 in range(start, end + 1):
+        total += num2 
+    return total
